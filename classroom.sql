@@ -18,3 +18,4 @@ drop database if exists company;   /*will nor give error but warning*/
 
 show databases;   /*shows all the databases*/
 show tables;   /*shows all tables of current database*/
+drop table student;
