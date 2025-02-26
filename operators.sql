@@ -24,3 +24,9 @@ select * from student where city="Mumbai"
 
 select * from student where city in ("Delhi","Mumbai");
 select * from student where city not in ("Delhi","Mumbai");
+
+select city, count(name) from student group by city;
+
+select city,avg(marks) from student
+group by city
+order by city;
